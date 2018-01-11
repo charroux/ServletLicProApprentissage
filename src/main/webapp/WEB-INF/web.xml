@@ -16,5 +16,15 @@
 		<url-pattern>/urlPremierFormulaire</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>premiereJSP</servlet-name>
+		<servlet-class>tp2.PremiereJSP</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>premiereJSP</servlet-name>
+		<url-pattern>/urlVersPremiereJSP</url-pattern>
+	</servlet-mapping>
+	
 	
 </web-app>
