@@ -26,5 +26,13 @@
 		<url-pattern>/urlVersPremiereJSP</url-pattern>
 	</servlet-mapping>
 	
+	<servlet>
+		<servlet-name>JSPBean</servlet-name>
+		<servlet-class>tp3.ServletBean</servlet-class>
+	</servlet>
 	
+	<servlet-mapping>
+		<servlet-name>JSPBean</servlet-name>
+		<url-pattern>/urlFormBean</url-pattern>
+	</servlet-mapping>	
 </web-app>
