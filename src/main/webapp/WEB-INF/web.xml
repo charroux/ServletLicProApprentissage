@@ -35,4 +35,14 @@
 		<servlet-name>JSPBean</servlet-name>
 		<url-pattern>/urlFormBean</url-pattern>
 	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>JSPListeBean</servlet-name>
+		<servlet-class>tp4.ServletListBean</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>JSPListeBean</servlet-name>
+		<url-pattern>/listeEtudiantURL</url-pattern>
+	</servlet-mapping>	
 </web-app>
