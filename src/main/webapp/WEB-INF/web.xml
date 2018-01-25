@@ -45,4 +45,16 @@
 		<servlet-name>JSPListeBean</servlet-name>
 		<url-pattern>/listeEtudiantURL</url-pattern>
 	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>ServletCookieFrom</servlet-name>
+		<servlet-class>tp5.ServletCookie</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>ServletCookieFrom</servlet-name>
+		<url-pattern>/urlServletCookie</url-pattern>
+	</servlet-mapping>	
+	
+	
 </web-app>
